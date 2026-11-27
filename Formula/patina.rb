@@ -10,8 +10,8 @@ class Patina < Formula
   desc "Containers for your Mac, with its own Linux VM and Docker Engine"
   homepage "https://github.com/caffeines/patina"
   url "https://github.com/caffeines/patina.git",
-      tag:      "v1.0.0",
-      revision: "594003f3077fac8c3cc17b88b9e36652ea403a4a"
+      tag:      "v1.1.0",
+      revision: "095fa9d08283c548c4820268bc93105111472657"
   head "https://github.com/caffeines/patina.git", branch: "main"
 
   depends_on "rust" => :build
